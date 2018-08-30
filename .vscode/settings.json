@@ -1,4 +1,13 @@
 {
   "favorites.sortDirection": "ASC",
-  "favorites.groupsFirst": true
+  "favorites.groupsFirst": true,
+  "favorites.root": [
+    {
+      "type": "Directory",
+      "name": "d:\\WebDev\\__TUTORIALS\\Udemy\\Angular 6 - The Complete Guide\\angular-app\\src\\app",
+      "parent_id": null,
+      "workspacePath": "src\\app",
+      "id": "W5r9bgJ6i0LueNxZ"
+    }
+  ]
 }
