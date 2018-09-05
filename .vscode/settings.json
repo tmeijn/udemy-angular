@@ -9,5 +9,10 @@
       "workspacePath": "src\\app",
       "id": "W5r9bgJ6i0LueNxZ"
     }
-  ]
+  ],
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "deep_dive": true
+  }
 }

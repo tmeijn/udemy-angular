@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-app';
+  selectedPage: ('recipes' | 'shoppingList') = 'recipes';
+
+  onSetSelectedPage(pageName): void {
+    this.selectedPage = pageName;
+  }
 }
