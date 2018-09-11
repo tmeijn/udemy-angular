@@ -6,11 +6,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ServersService } from './servers/servers.service';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ...routedComponents
+    ...routedComponents,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
