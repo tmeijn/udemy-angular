@@ -7,12 +7,17 @@ import { ServersService } from './servers.service';
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent implements OnInit {
-  servers: {id: number, name: string, status: string}[] = [];
+  public servers: {id: number, name: string, status: string}[] = [];
 
-  constructor(private serversService: ServersService) { }
+  constructor(
+    private serversService: ServersService) { }
 
   ngOnInit() {
     this.servers = this.serversService.getServers();
+  }
+
+  onReload(): void {
+    // this.router.navigate(['servers'], { relativeTo: this.route });
   }
 
 }
